@@ -1,0 +1,51 @@
+{
+  "name": "@mirawision/observer",
+  "version": "1.0.0",
+  "description": "A lightweight and flexible observer pattern implementation for TypeScript, providing a simple way to implement event-driven architecture with type safety.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "pack": "npm pack",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "observer",
+    "observer pattern",
+    "event-driven",
+    "typescript",
+    "publisher-subscriber",
+    "pub-sub",
+    "event emitter",
+    "reactive programming",
+    "design pattern",
+    "typescript library"
+  ],
+  "author": "Yelysei Lukin <yelysei277@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiraWision/observer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiraWision/observer/issues"
+  },
+  "homepage": "https://mirawision.github.io/observer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+} 
