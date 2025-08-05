@@ -246,7 +246,22 @@ observer/
 ├── package.json           # NPM package configuration
 ├── tsconfig.json          # TypeScript configuration
 ├── jest.config.js         # Jest testing configuration
+├── .gitignore            # Git ignore patterns
+├── .npmignore            # NPM ignore patterns
 └── README.md             # This file
+```
+
+## NPM Package Contents
+
+When published to npm, the package will include only the essential files:
+
+```
+@mirawision/observer/
+├── index.js              # Compiled JavaScript
+├── index.d.ts            # TypeScript declarations
+├── package.json          # Package configuration
+├── README.md            # Documentation
+└── LICENSE              # MIT license
 ```
 
 ## Development
