@@ -2,8 +2,6 @@
 
 A lightweight and flexible observer pattern implementation for TypeScript, providing a simple way to implement event-driven architecture with type safety. This library offers a clean and intuitive API for implementing the observer pattern in your applications.
 
-[Demo and advanced Documentation can be found here!](https://mirawision.github.io/observer)
-
 ## Features
 
 - **Type Safety**: Full TypeScript support with generic types for type-safe event data
@@ -232,55 +230,6 @@ type ObserverListener<T> = (data: T) => void;
 class Observer<T> {
   // ... methods
 }
-```
-
-## Project Structure
-
-```
-observer/
-├── src/                    # Source code
-│   └── index.ts           # Main Observer implementation
-├── tests/                 # Test files
-│   └── observer.test.ts   # Test suite
-├── docs/                  # Documentation site
-├── package.json           # NPM package configuration
-├── tsconfig.json          # TypeScript configuration
-├── jest.config.js         # Jest testing configuration
-├── .gitignore            # Git ignore patterns
-├── .npmignore            # NPM ignore patterns
-└── README.md             # This file
-```
-
-## NPM Package Contents
-
-When published to npm, the package will include only the essential files:
-
-```
-@mirawision/observer/
-├── index.js              # Compiled JavaScript
-├── index.d.ts            # TypeScript declarations
-├── package.json          # Package configuration
-├── README.md            # Documentation
-└── LICENSE              # MIT license
-```
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run tests
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-
-# Run tests in watch mode
-npm run test:watch
-
-# Build the library
-npm run build
 ```
 
 ## Contributing
