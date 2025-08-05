@@ -1,6 +1,6 @@
 {
   "name": "@mirawision/observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and flexible observer pattern implementation for TypeScript, providing a simple way to implement event-driven architecture with type safety.",
   "main": "index.js",
   "types": "index.d.ts",
